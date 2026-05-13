@@ -1,0 +1,23 @@
+stages:
+  - build
+  - mvn_deploy
+
+before_script:
+  - git reset --hard $CI_COMMIT_SHA
+  - git clean -df
+  - git stash
+  - git pull origin $CI_COMMIT_SHA
+
+build:
+  stage: build
+  script:
+    - pwd
+    - mvn clean compile
+
+install:
+  stage: mvn_deploy
+  script:
+    - pwd
+    - mvn deploy
+  only:
+    - main
