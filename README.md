@@ -1,3 +1,3 @@
 # Perun Assets
 
-Static assets library — CSS stylesheets, fonts, images, and scripts shared across projects.
+Static assets library — initialization scripts and a few card images shared across projects.
