@@ -4,7 +4,7 @@
 
 	<groupId>org.peruntech</groupId>
 	<artifactId>perun-assets</artifactId>
-	<version>4.0.2-SNAPSHOT</version>
+	<version>4.0.3-SNAPSHOT</version>
 	<packaging>bundle</packaging>
 	<name>perun-assets</name>
 	<description>A bundle that provides assets for the Perun Core GUI</description>
@@ -13,6 +13,34 @@
 		<name>Perun Technologies</name>
 		<url>http://peruntech.org</url>
 	</organization>
+	<scm>
+		<connection>scm:git:git://github.com/PerunTech/perun-assets.git</connection>
+		<developerConnection>scm:git:git@github.com:PerunTech/perun-assets.git</developerConnection>
+		<url>https://github.com/PerunTech/perun-assets</url>
+	</scm>
+	<licenses>
+		<license>
+			<name>Apache 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+			<comments>A business-friendly OSS license</comments>
+		</license>
+	</licenses>
+	<developers>
+		<developer>
+			<id>karikjtomi</id>
+			<name>Tomi Karikj</name>
+			<email>t.karikj@prtech.mk</email>
+			<url>http://www.perun.tech</url>
+			<organization>Perun Technologies</organization>
+			<organizationUrl>http://peruntech.org</organizationUrl>
+			<roles>
+				<role>architect</role>
+				<role>developer</role>
+			</roles>
+			<timezone>Europe/Skopje</timezone>
+		</developer>
+	</developers>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
