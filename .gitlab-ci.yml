@@ -18,7 +18,7 @@ install:
   stage: mvn_deploy
   script:
     - pwd
-    - mvn deploy
+    - mvn deploy -Dmaven.javadoc.skip=true
   only:
     - main
     - dev
