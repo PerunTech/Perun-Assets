@@ -4,7 +4,7 @@
 
 	<groupId>org.peruntech</groupId>
 	<artifactId>perun-assets</artifactId>
-	<version>4.0.3-SNAPSHOT</version>
+	<version>4.0.4-SNAPSHOT</version>
 	<packaging>bundle</packaging>
 	<name>perun-assets</name>
 	<description>A bundle that provides assets for the Perun Core GUI</description>
