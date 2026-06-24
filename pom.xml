@@ -4,9 +4,10 @@
 
 	<groupId>org.peruntech</groupId>
 	<artifactId>perun-assets</artifactId>
-	<version>4.0.1-SNAPSHOT</version>
+	<version>4.0.2-SNAPSHOT</version>
 	<packaging>bundle</packaging>
 	<name>perun-assets</name>
+	<description>A bundle that provides assets for the Perun Core GUI</description>
 	<url>https://github.com/PerunTech/perun-assets</url>
 	<organization>
 		<name>Perun Technologies</name>
@@ -60,6 +61,19 @@
 				<executions>
 					<execution>
 						<id>attach-sources</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>3.6.3</version>
+				<executions>
+					<execution>
+						<id>attach-javadocs</id>
 						<goals>
 							<goal>jar</goal>
 						</goals>
