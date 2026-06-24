@@ -21,3 +21,4 @@ install:
     - mvn deploy
   only:
     - main
+    - dev
