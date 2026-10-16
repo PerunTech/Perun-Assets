@@ -1,3 +1,3 @@
 # Perun Assets
 
-Static assets library — initialization scripts and a few card images shared across projects.
+Static assets library — SweetAlert2 and a few card images shared across projects.
