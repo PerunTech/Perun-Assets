@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 512 512" id="processing-desk">
+  <g stroke="#000" stroke-width="10" stroke-linejoin="round">
+    <!-- Back sheet: a request waiting in the tray -->
+    <polygon fill="#e1e1e1" points="146 52 394 26 425 324 177 350"></polygon>
+    <!-- Front sheet: the request being processed -->
+    <polygon fill="#FFF" points="120 70 318 70 368 120 368 360 120 360"></polygon>
+    <polygon fill="#ecc85c" points="318 70 368 120 318 120"></polygon>
+    <rect width="190" height="30" x="149" y="150" fill="#aac887"></rect>
+  </g>
+  <g fill="#B5BFC1">
+    <rect width="190" height="14" x="149" y="204"></rect>
+    <rect width="150" height="14" x="149" y="234"></rect>
+    <rect width="170" height="14" x="149" y="264"></rect>
+  </g>
+  <!-- Desk tray, in front of the sheets -->
+  <polygon fill="#B5BFC1" points="40 300 156 300 186 352 326 352 356 300 472 300 472 472 40 472"></polygon>
+  <polygon fill="#e1e1e1" points="40 300 156 300 186 352 326 352 356 300 472 300 472 322 368 322 338 374 174 374 144 322 40 322"></polygon>
+  <polygon fill="none" stroke="#000" stroke-width="10" stroke-linejoin="round" points="40 300 156 300 186 352 326 352 356 300 472 300 472 472 40 472"></polygon>
+  <!-- Processed: approval check -->
+  <circle cx="400" cy="120" r="62" fill="#aac887" stroke="#000" stroke-width="10"></circle>
+  <polyline fill="none" stroke="#FFF" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" points="370 120 392 142 432 100"></polyline>
+</svg>
